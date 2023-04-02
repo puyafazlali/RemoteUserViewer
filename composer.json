@@ -1,0 +1,40 @@
+{
+  "name": "puyafazlali/remoteuserviewer",
+  "description": "A WordPress plugin to show a table with users fetched from a 3rd-party API.",
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "Inpsyde"
+  ],
+  "homepage": "https://github.com/puyafazlali/RemoteUserViewer",
+  "authors": [
+    {
+      "name": "Puya Fazlali",
+      "homepage": "https://puyafazlali.com"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=8.0"
+  },
+  "require-dev": {
+    "inpsyde/php-coding-standards": "^1.0",
+    "brain/monkey": "^2.4",
+    "phpunit/phpunit": "^7.0 | ^8.0 | ^9.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "PuyaFazlali\\RemoteUserViewer\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PuyaFazlali\\RemoteUserViewer\\Tests\\": "tests/"
+    }
+  }
+}

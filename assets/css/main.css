@@ -1,0 +1,56 @@
+/* Styles for remote users table */
+.apiuserstable {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+.remote-users-table {
+  border-collapse: collapse;
+}
+
+.remote-users-table th,
+.remote-users-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style for table header cells */
+.remote-users-table th {
+  background-color: #9fc65d;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Style for odd table rows */
+.remote-users-table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+/* Styles for remote user details */
+#remote-user-details-container th,
+#remote-user-details-container td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style for table header cells */
+#remote-user-details-container th {
+  background-color: #9fc65d;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Style for table links */
+.remote-user-details-link {
+  color: #0073aa;
+  text-decoration: none;
+}
+
+/* Style for table links on hover */
+.remote-user-details-link:hover {
+  text-decoration: underline;
+}
