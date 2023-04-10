@@ -1,13 +1,5 @@
 # WordPress Remote User Viewer Plugin
 
-
-License: GPLv3
-License URI: http://www.gnu.org/licenses/gpl.html
-Tags: WordPress, AJAX, JSON,
-Tested up to: 6.1.1
-Stable tag: 1.0.0
-Requires PHP: 8.1.9
-
 > A WordPress plugin to show a table with users fetched from a 3rd-party API.
 
 ## Description
